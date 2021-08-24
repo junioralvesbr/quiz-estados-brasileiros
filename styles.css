@@ -53,33 +53,13 @@
 .options-wrapper > .option {
     width: 214px;
     height: 40px;
+    line-height: 40px;
     background-color: #fff;
     color: #c4c4c4;
     border: 1px solid #c4c4c4;
     border-radius: 50px;
     cursor: pointer;
     padding-left: 14px;
-}
-
-.options-wrapper > .option input {
-    display: none;
-}
-
-.options-wrapper > .option .label {
-    background-color: #fff;
-    line-height: 40px;
-    cursor: pointer;
-}
-
-.options-wrapper > .option .mark {
-    text-align: center;
-    line-height: 20px;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 1px solid #c4c4c4;
-    background-color: #fff;
-    border-radius: 100%;
 }
 
 .button-wrapper {
