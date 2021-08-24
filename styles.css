@@ -84,6 +84,7 @@
 
 .button-wrapper {
     width: 90vw;
+    margin: 0 auto;
     padding: 30px;
     display: flex;
     justify-content: center;
@@ -99,15 +100,16 @@
     cursor: pointer;
 }
 
-@media (min-width: 575px) {
+@media (min-width: 625px) {
     .card-wrapper {
-        width: 90vw;
+        width: 80vw;
+        margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(2, 1fr)
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (min-width: 875px) {
+@media (min-width: 940px) {
     .card-wrapper {
         grid-template-columns: repeat(3, 1fr)
     }
