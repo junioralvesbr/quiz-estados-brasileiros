@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,12 @@
     <title>Quiz | Você sabe quais são as capitais do Brasil</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
     <header>
         <section class="header">
@@ -20,125 +22,130 @@
         </section>
     </header>
     <main>
-        <section class="card-wrapper">
-            <article class="card">
-                <h2 class="card-name">Roraima</h2>
-                <div class="options-wrapper">
-                    <label for="roraimaA" class="option">
-                        <input type="radio" id="roraimaA" value="a" name="roraima">
-                        Boa Vista
-                    </label>
 
-                    <label for="roraimaB" class="option">
-                        <input type="radio" id="roraimaB" value="b" name="roraima">
-                        Rio Branco
-                    </label>
+        <form class="form">
+            <section class="card-wrapper">
+                <article class="card">
+                    <h2 class="card-name">Roraima</h2>
+                    <div class="options-wrapper">
+                        <label for="roraimaA" class="option">
+                            <input type="radio" id="roraimaA" value="a" name="roraima">
+                            Boa Vista
+                        </label>
 
-                    <label for="roraimaC" class="option">
-                        <input type="radio" id="roraimaC" value="c" name="roraima">
-                        Campo Grande
-                    </label>
-                </div>
-            </article>
-            <article class="card">
-                <h2 class="card-name">Paraná</h2>
-                <div class="options-wrapper">
-                    <label for="paranaA" class="option">
-                        <input type="radio" id="paranaA" value="a" name="parana">
-                        Fortaleza
-                    </label>
+                        <label for="roraimaB" class="option">
+                            <input type="radio" id="roraimaB" value="b" name="roraima">
+                            Rio Branco
+                        </label>
 
-                    <label for="paranaB" class="option">
-                        <input type="radio" id="paranaB" value="b" name="parana">
-                        Porto Alegre
-                    </label>
+                        <label for="roraimaC" class="option">
+                            <input type="radio" id="roraimaC" value="c" name="roraima">
+                            Campo Grande
+                        </label>
+                    </div>
+                </article>
+                <article class="card">
+                    <h2 class="card-name">Paraná</h2>
+                    <div class="options-wrapper">
+                        <label for="paranaA" class="option">
+                            <input type="radio" id="paranaA" value="a" name="parana">
+                            Fortaleza
+                        </label>
 
-                    <label for="paranaC" class="option">
-                        <input type="radio" id="paranaC" value="c" name="parana">
-                        Curitiba
-                    </label>
-                </div>
-            </article>
-            <article class="card">
-                <h2 class="card-name">Goias</h2>
-                <div class="options-wrapper">
-                    <label for="goiasA" class="option">
-                        <input type="radio" id="goiasA" value="a" name="goias">
-                        Goiania
-                    </label>
-                    
-                    <label for="goiasB" class="option">
-                        <input type="radio" id="goiasB" value="b" name="goias">
-                        Cuiabá
-                    </label>
-                    
-                    <label for="goiasC" class="option">
-                        <input type="radio" id="goiasC" value="c" name="goias">
-                        Belo Horizonte
-                    </label>
-                </div>
-            </article>
-            <article class="card">
-                <h2 class="card-name">Bahia</h2>
-                <div class="options-wrapper">
-                    <label for="saoPauloA" class="option">
-                        <input type="radio" id="saoPauloA" value="a" name="saoPaulo">
-                        São Paulo
-                    </label>
-                    
-                    <label for="saoPauloB" class="option">
-                        <input type="radio" id="saoPauloB" value="b" name="saoPaulo">
-                        Florianópolis
-                    </label>
-                    
-                    <label for="saoPauloC" class="option">
-                        <input type="radio" id="saoPauloC" value="c" name="saoPaulo">
-                        Salvador
-                    </label>
-                </div>
-            </article>
-            <article class="card">
-                <h2 class="card-name">Sergipe</h2>
-                <div class="options-wrapper">
-                    <label for="sergipeA" class="option">
-                        <input type="radio" id="sergipeA" value="a" name="sergipe">
-                        Natal
-                    </label>
-                    
-                    <label for="sergipeB" class="option">
-                        <input type="radio" id="sergipeB" value="b" name="sergipe">
-                        Aracaju
-                    </label>
-                    
-                    <label for="sergipeC" class="option">
-                        <input type="radio" id="sergipeC" value="c" name="sergipe">
-                        Vitoria
-                    </label>
-                </div>
-            </article>
-            <article class="card">
-                <h2 class="card-name">Minas Gerais</h2>
-                <div class="options-wrapper">
-                    <label for="minasGeraisA" class="option">
-                        <input type="radio" id="minasGeraisA" value="a" name="minasGerais">
-                        Belo Horizonte
-                    </label>
-                    
-                    <label for="minasGeraisB" class="option">
-                        <input type="radio" id="minasGeraisB" value="b" name="minasGerais">
-                        Manaus
-                    </label>
-                    
-                    <label for="minasGeraisC" class="option">
-                        <input type="radio" id="minasGeraisC" value="c" name="minasGerais">
-                        Belem
-                    </label>
-                </div>
-            </article>
-        </section>
-        <div class="button-wrapper">
-            <button class="button">Responder</button>
-        </div>
+                        <label for="paranaB" class="option">
+                            <input type="radio" id="paranaB" value="b" name="parana">
+                            Porto Alegre
+                        </label>
+
+                        <label for="paranaC" class="option">
+                            <input type="radio" id="paranaC" value="c" name="parana">
+                            Curitiba
+                        </label>
+                    </div>
+                </article>
+                <article class="card">
+                    <h2 class="card-name">Goias</h2>
+                    <div class="options-wrapper">
+                        <label for="goiasA" class="option">
+                            <input type="radio" id="goiasA" value="a" name="goias">
+                            Goiania
+                        </label>
+
+                        <label for="goiasB" class="option">
+                            <input type="radio" id="goiasB" value="b" name="goias">
+                            Cuiabá
+                        </label>
+
+                        <label for="goiasC" class="option">
+                            <input type="radio" id="goiasC" value="c" name="goias">
+                            Belo Horizonte
+                        </label>
+                    </div>
+                </article>
+                <article class="card">
+                    <h2 class="card-name">Bahia</h2>
+                    <div class="options-wrapper">
+                        <label for="bahiaA" class="option">
+                            <input type="radio" id="bahiaA" value="a" name="bahia">
+                            São Paulo
+                        </label>
+
+                        <label for="bahiaB" class="option">
+                            <input type="radio" id="bahiaB" value="b" name="bahia">
+                            Florianópolis
+                        </label>
+
+                        <label for="bahiaC" class="option">
+                            <input type="radio" id="bahiaC" value="c" name="bahia">
+                            Salvador
+                        </label>
+                    </div>
+                </article>
+                <article class="card">
+                    <h2 class="card-name">Sergipe</h2>
+                    <div class="options-wrapper">
+                        <label for="sergipeA" class="option">
+                            <input type="radio" id="sergipeA" value="a" name="sergipe">
+                            Natal
+                        </label>
+
+                        <label for="sergipeB" class="option">
+                            <input type="radio" id="sergipeB" value="b" name="sergipe">
+                            Aracaju
+                        </label>
+
+                        <label for="sergipeC" class="option">
+                            <input type="radio" id="sergipeC" value="c" name="sergipe">
+                            Vitoria
+                        </label>
+                    </div>
+                </article>
+                <article class="card">
+                    <h2 class="card-name">Minas Gerais</h2>
+                    <div class="options-wrapper">
+                        <label for="minasGeraisA" class="option">
+                            <input type="radio" id="minasGeraisA" value="a" name="minasGerais">
+                            Belo Horizonte
+                        </label>
+
+                        <label for="minasGeraisB" class="option">
+                            <input type="radio" id="minasGeraisB" value="b" name="minasGerais">
+                            Manaus
+                        </label>
+
+                        <label for="minasGeraisC" class="option">
+                            <input type="radio" id="minasGeraisC" value="c" name="minasGerais">
+                            Belem
+                        </label>
+                    </div>
+                </article>
+                <button class="button">Responder</button>
+            </section>
+        </form>
+
     </main>
+
+    <script src="./index.js"></script>
 </body>
+
 </html>
