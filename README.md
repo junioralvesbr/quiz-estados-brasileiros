@@ -3,7 +3,7 @@
 ## Descrição:
 É o popular jogo da velha, onde o jogador que conseguir fechar uma trillha vence o jogo.</br>
 </br>
-[ACESSAR O APLICATIVO](https://junioralvesbr.github.io/jogo-da-velha/)
+[ACESSAR O APLICATIVO](https://junioralvesbr.github.io/quiz-estados-brasileiros/)
 
 ## Aprendizado
 Lógica de javascript desde a captura de dados do formulario até lidar com arrays utilziando métodos e funções puras.
