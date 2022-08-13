@@ -1,7 +1,7 @@
 # QUIZ
 
 ## Descrição:
-É o popular jogo da velha, onde o jogador que conseguir fechar uma trillha vence o jogo.</br>
+É o popular jogo de quiz.</br>
 </br>
 [ACESSAR O APLICATIVO](https://junioralvesbr.github.io/quiz-estados-brasileiros/)
 
