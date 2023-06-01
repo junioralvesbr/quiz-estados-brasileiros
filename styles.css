@@ -1,10 +1,10 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #3A9A49;
     font-weight: 400;
+    box-sizing: border-box;
 }
 
 .header > .title {
@@ -32,7 +32,7 @@
 
 .card {
     width: 250px;
-    height: 252px;
+    height: 40vh;
     margin: 34px auto 0;
     background-color: #fff;
     border-radius: 10px;
@@ -59,7 +59,7 @@
 }
 
 .options-wrapper > .option {
-    width: 214px;
+    width: 90%;
     height: 40px;
     line-height: 40px;
     background-color: #fff;
@@ -71,13 +71,25 @@
 }
 
 .button {
+    margin: 10px;
     padding: 16px 24px;
     background-color: #4A7ECB;
+    border: #4A7ECB;
+    border-radius: 20px;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     cursor: pointer;
 }
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }
 
 @media (min-width: 625px) {
     .card-wrapper {
